@@ -3,9 +3,6 @@ Grupo UTI - Vertical da Saúde
 
 #### Apresentação 
 
-Use essa seção para falar sobre as motivações de seu time e, de forma breve, qual o produto que estão trabalhando. Se possível forneça **o que** seu produto é, por exemplo: Um app, uma aplicação web, gadget, dentre outros.
-
-
 Nossa idéia surge da necessidade de centralizar e disponibilizar publicamente quantos leitos disponíveis existem em cada hospital em meio a essa pandemia. Criamos uma aplicação web onde é possível consultar o número de leitos disponíveis em cada hospital, sendo ele da rede pública ou privada.
 
 ### O Produto
