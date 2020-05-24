@@ -11,3 +11,6 @@ De forma simples, eficiente e rápida, nossa aplicação permite que pacientes e
 
 ### Informações adicionais 
 Com o aumento exponencial do número de pecientes que necessitam de leitos vimos a necessidade de construir uma aplicação web de acesso livre, voltada a área de saúde, mais especificamente para informar aos pacientes com sintomas graves de COVID 19 a quantidade de leitos disponíveis em cada unidade de saúde do brasil, incluindo hospitais de campanha, rede pública e privada de atendimento, podendo ser filtrada por município ou estado. Sendo atualizadas o mais constantemente possível, com intuito de tornar a informação transparente, direcionar as pessoas e reduzir aglomerações em hospitais lotados.
+
+### Desistencias na equipe
+Infelizmente tivemos duas desistencia na equipe na noite de 23 para 24 e justamente os dois devs que fariam o backend, por isso estamos com a especificação, slides, front e banco de dados prontos, mas nao então integrados.
