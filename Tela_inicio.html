@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Buscar Leitos</title>
+        <link href="css/styles.css" rel="stylesheet" />     
+        <link href="css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+
+     
+        
+    </head>
+    <body>
+
+        <header>
+
+            <div style="background-color: #ffffff; border-bottom: solid 1px #000000;">
+                <div class="w-100 p-3 container" style="background-color: #ffffff; height: 70px;">
+                    <nav style="float: right;, margin-top: 0;" class="my-2 my-md-0 mr-md-3">
+                        <a style="font-size: medium;" class="p-2 text-dark" href="Login.html">ENTRAR</a>
+                        <a style="font-size: medium;" class="p-2 text-dark" href="cadastrar_unidade_de_saude.html">CADASTRAR</a>
+                    </nav>
+
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-sm-6 col-md-8 arroba" style="left: 2.6%; font-size:13px; margin-top: -7px;" >
+                            <p class="font-weight-light text-white">
+                                <img src="img/alou.png" style="width: 60px; height: 60px;" class="img-fluid mr-2" alt="Responsive image">
+                            </p>
+                        </div>
+
+                        <div class="col5 arroba2 " style="margin-top: -1px; right: 3.6%; position: relative;">
+                            
+                          
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+            
+            
+           
+            
+        </header>
+       
+       
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid">
+                        
+                                
+                                <!-- COMEÇO DO FORM -->
+
+                                <form class="colour-test" action="#" method="#">
+                                    <div class="col-md-3">    </div>
+                                    <div class="form-row"><div class="col-md-5"></div><h1 style="margin-top:35px; padding-bottom: 50px;;">Buscar Leitos</h1></div>
+                                    <div class="form-row">
+                                        
+                                        <div class="col-md-3">    </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label class="small mb-1" for="nomeUsuario">Cidade</label>
+                                                <select id="cidade" name="cidade" class="form-control">
+                                                    <option hidden selected value="">Selecione a cidade</option>
+                                                    <option value="RJ">Rio de Janeiro</option>
+                                                    <option value="SP">São Paulo</option>
+                                                    <option value="MG">Minas Gerais</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
+                                        
+
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label class="small mb-1" for="sobrenomeUsuario">Estado</label>
+                                                <select id="estado" name="estado" class="form-control">
+                                                    <option hidden value="">Selecione o estado</option>
+                                                    <option value="RJ">Rio de Janeiro</option>
+                                                    <option value="SP">São Paulo</option>
+                                                    <option value="MG">Minas Gerais</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    
+                                        
+                                    
+                                         <div class="col-md-3">    </div>
+
+                                    </div>
+                               
+                                  
+                                                                
+                               
+                                    <div class="form-row">  
+                                        <div class="col-md-3"></div> 
+                                        
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label class="small mb-1" for="naturalizacaoDocumento" >Bairro</label>
+                                                <input class="form-control py-3 " id="naturalizacaoDocumento" name="naturalizacaoDocumento" type="text" placeholder="Selecione o bairro" value=""/>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label class="small mb-1" for="numeroCpfCnpjUsuario" >Tipo de unidade</label>
+                                                <select id="Tipo_de_rede" name="Tipo_de_rede" class="form-control">
+                                                    <option hidden selected value="">Selecione a rede</option>
+                                                    <option value="PU">Pública</option>
+                                                    <option value="PR">Privada</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3"></div> 
+                                    </div>
+
+                                                                                                                                                                                  
+                                                                                                         
+                                        <div class="col-md-3," style="display : flex; justify-content : center; align-items : center; flex-direction : initial;">
+                                            
+                                            <div class="form-group mt-5 mb-0"><button style="width: 200px;" id="buscar" class="btn btn-success btn-lg" >BUSCAR</button></div>
+                                    
+                                    </div>
+                                
+                                
+                                </form>
+
+                                    
+                               
+                            </div>
+                            </main>
+                            <footer style="position:absolute; bottom:0; width:100%;" class="py-4 bg-success mt-auto ">
+                            
+                               
+                            </footer>
+                    </div>
+                </div>
+
+                <script src="js/jquery-3.4.1.min.js"></script>
+                <script src="js/all.min.js"></script>
+                <script src="js/scripts.js"></script>
+                <script src="js/resilia.js"></script>
+                <script src="assets/demo/datatables-demo.js"></script>
+                <script src="js/jquery.mask.min.js"></script>
+                <script src="js/bootstrap.bundle.min.js"></script>
+                <script src="js/dataTables.bootstrap4.min.js"></script>
+                <script src="js/validaDados.js"></script>
+
+
+            </body>
+        </html>
